@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        #conteiner{
+            background-image: url(imagens/target001.png); /* Colocar imagem*/
+            background-repeat: no-repeat; /*Fazer a imagem parar de repetir */
+            background-size: 100% 100%; /*Faz a imagem 100% da tela, tando para direita quanto para baixo*/
+
+            position:relative; 
+            background-color: blueviolet;
+            height: 97vh; /*Assume 97% da view higt*/
+        }
+        .conteudo{
+            position:absolute; /*Faz assumir um posicionamento absuloto sobre a dive ou body*/
+            background-color: yellow;
+            width: 400px; /*Largura*/
+            height: 200px; /*Para baixo*/
+            
+
+            left: 50%; /*abre 50% da esquerda para direita*/
+            top: 50%; /*abre 50% de cima para baixo*/
+            /*left e top sose meche quando a position for ABSOLUTE*/
+
+
+            transform: translate( -50% ,-50%); /*faz assumir -50% to proprio tamanho */
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article class="conteudo">
+        
+        </article>
+    </section>
+</body>
+</html>
