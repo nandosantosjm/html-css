@@ -62,9 +62,16 @@ article > p{
 }
 footer{
     background-color: black;
-    
     width: 100%;
     text-align: center;
     color: white;
-    padding: 5px;
+    padding: 3px;
+}
+footer > p >a{
+    text-decoration: none;
+    color: white;
+}
+footer >p > a:hover{
+    color: yellow
+    ;
 }
