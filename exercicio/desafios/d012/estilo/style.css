@@ -56,8 +56,16 @@ section{
     background-color: white;
 }
 .img{
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     background-color: rgb(63, 63, 63);
     color: white;
+    box-shadow: inset 0px 10px 20px rgba(0, 0, 0, 0.315);
+}
+#img1{
+    background-image: url(../imagens/background002.jpg);
 }
 .img > p{
     padding: 10px 15px; 
