@@ -52,25 +52,32 @@ section{
     font-family: var(--font3);
     font-size: 3.5vw;
 }
+section > p{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
 .normal{
     background-color: white;
 }
 .img{
-    background-image: url(../imagens/background001.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-color: rgb(63, 63, 63);
     color: white;
-    box-shadow: inset 0px 10px 20px rgba(0, 0, 0, 0.315);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 #img1{
+    background-image: url(../imagens/background001.jpg);
+}
+#img2{
     background-image: url(../imagens/background002.jpg);
 }
 .img > p{
     padding: 10px 15px; 
     display: inline-block; /*Fez a trasparencia que iria pegarno paragrafo todo ficar somente perto das letras*/
     background-color: rgba(0, 0, 0, 0.267);
+    text-shadow: 1px 1px 0px black;
     
 }
 footer{
