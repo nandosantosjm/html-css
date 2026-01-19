@@ -1,0 +1,23 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 100vh;
+    background-image: url(20251129_113558-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+nav{
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    text-align:center;
+    padding: 30px;
+   
+}
