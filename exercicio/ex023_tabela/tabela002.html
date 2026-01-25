@@ -4,19 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: gray;
+            color: white;
+        }
+        tbody{
+
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        td{text-align: right;}
+    </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
     <table>
         <thead>
             <tr>
-                <td>Posição</td>
-                <td>Estado</td>
-                <td>População</td>
-                <td>% da pop. <br> total</td>
+                
+                <th>Estado</th>
+                <th>População</th>
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <th>São Paulo</th>
+                <td>46 081 801</td>
+            </tr>    
+            <tr>
+                <th>Minas Gerais</th>
+                <td>21 393 441</td>
+            </tr>
+            
 
         </tbody>
     </table>
